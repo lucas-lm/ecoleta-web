@@ -14,6 +14,12 @@ Este projeto foi idealizado pela Rocketseat na primeira edição da Next Level W
 A API do ecoleta fornece acesso a uma base de dados com informações sobre pontos de coleta de resíduos que não podem ser descartados no meio ambiente.
 A URL base para acessar essas informações é https://ecoleta-279615.rj.r.appspot.com/ e os endpoints disponíveis estão todos documentados aqui.
 
+### Experimente
+
+Todos os endpoints da API são abertos quase todos utilizam o método GET para trazer dados da API.
+Desta forma, você pode experimentar a API diretamente do seu navegador.
+Clicando aqui, por exemplo, você tem acesso aos itens que podem ser coletados. Alternativamente você também pode colar esta URL https://ecoleta-279615.rj.r.appspot.com/items diretamente no seu navegador.
+
 ### Endpoints
 
 | Endpoint             | Método | O que ele faz?                   | O que ele retorna?                    |
@@ -40,11 +46,11 @@ https://ecoleta-279615.rj.r.appspot.com/points?city=Taquaritinga&uf=SP&items=1,2
 Em caso de sucesso, o status da requisição retornado é 2xx.
 
 
-## Web
+## Aplicação Web
 
 A aplicação web fornece uma interface gráfica amigável para registrar um novo ponto de coleta na base de dados do ecoleta.
 
-### Features
+### Funcionalidades
 
 - Upload de imagem do ponto de coleta
   - Você pode escolher uma imagem para o seu ponto de coleta
@@ -56,11 +62,11 @@ A aplicação web fornece uma interface gráfica amigável para registrar um nov
 - Geolocalização
 - Opções para cidade/estado sincronizada com base de dados do IBGE
 
-## Nativo
+## App Mobile
 
 O app mobile fornece uma interface gráfica onde é possível visualizar pontos de coleta pelo mapa
 
-### Features
+### Funcionalidades
 
 - Visualização de detalhes dos pontos de coleta
   - Itens que o ponto de coleta aceita
