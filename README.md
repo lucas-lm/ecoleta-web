@@ -6,7 +6,7 @@ Os pontos de coleta cadastrados podem ser visualizados através do aplicativo ec
 Este projeto foi idealizado pela Rocketseat na primeira edição da Next Level Week (NLW), durante a semana do meio ambiente de 2020.
 
 ---
-![](https://imgur.com/PCLZ9hU.gif)
+![Imgur](https://imgur.com/PCLZ9hU.gif)
 ---
 
 ## API
