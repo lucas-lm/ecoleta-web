@@ -18,7 +18,7 @@ A URL base para acessar essas informações é https://ecoleta-279615.rj.r.appsp
 
 Todos os endpoints da API são abertos quase todos utilizam o método GET para trazer dados da API.
 Desta forma, você pode experimentar a API diretamente do seu navegador.
-Clicando aqui, por exemplo, você tem acesso aos itens que podem ser coletados. Alternativamente você também pode colar esta URL https://ecoleta-279615.rj.r.appspot.com/items diretamente no seu navegador.
+[Clicando aqui](https://ecoleta-279615.rj.r.appspot.com/items), por exemplo, você tem acesso aos itens que podem ser coletados. Alternativamente você também pode colar esta URL https://ecoleta-279615.rj.r.appspot.com/items diretamente no seu navegador.
 
 ### Endpoints
 
