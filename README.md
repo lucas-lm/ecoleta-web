@@ -11,7 +11,8 @@ Este projeto foi idealizado pela Rocketseat na primeira edição da Next Level W
 
 ## API
 
-URL base: BASE_URL
+A API do ecoleta fornece acesso a uma base de dados com informações sobre pontos de coleta de resíduos que não podem ser descartados no meio ambiente.
+A URL base para acessar essas informações é https://ecoleta-279615.rj.r.appspot.com/ e os endpoints disponíveis estão todos documentados aqui.
 
 ### Endpoints
 
@@ -33,13 +34,46 @@ O endpoint /points pode aceitar opcionalmente os seguintes parâmetros:
 Uma requisição para pontos de coleta que colete os items 1, 2 e 6 em Taquaritinga/SP seria:
 
 ```
-BASE_URL/points?city=Taquaritinga&uf=SP&items=1,2,6
+https://ecoleta-279615.rj.r.appspot.com/points?city=Taquaritinga&uf=SP&items=1,2,6
 ```
 
 Em caso de sucesso, o status da requisição retornado é 2xx.
 
 
 ## Web
+
+A aplicação web fornece uma interface gráfica amigável para registrar um novo ponto de coleta na base de dados do ecoleta.
+
 ### Features
+
+- Upload de imagem do ponto de coleta
+  - Você pode escolher uma imagem para o seu ponto de coleta
+  - Imagens aceitas apenas nos formatos JPG, PNG e GIF
+  - Tamanho máximo da imagem de 2 MB
+- Integração com mapas
+  - Você pode selecionar no mapa a localização exata do seu ponto de coleta
+  - Você pode 
+- Geolocalização
+- Opções para cidade/estado sincronizada com base de dados do IBGE
+
 ## Nativo
+
+O app mobile fornece uma interface gráfica onde é possível visualizar pontos de coleta pelo mapa
+
 ### Features
+
+- Visualização de detalhes dos pontos de coleta
+  - Itens que o ponto de coleta aceita
+  - Whatsapp
+  - E-mail
+  - Nome do ponto de coleta
+  - Endereço do ponto de coleta
+- Geolocalização
+  - Abre o mapa centralizado na região em que você se encontra
+  - Exibe pontos de coleta próximos de você
+- Integração com mapas padrão do smartphone
+  - Você pode visualizar pontos de coleta no mapa
+- Integração com whatsapp
+  - Você pode enviar mensagem via whatsapp para o ponto de coleta diretamente do app
+- Integração com aplicativo de email
+  - Você pode enviar mensagem via e-mail para o ponto de coleta diretamente do app
