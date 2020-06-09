@@ -1,4 +1,7 @@
-# Ecoleta :earth_asia: :earth_africa: :earth_americas:
+# :recycle: Ecoleta :recycle:
+
+![GitHub last commit](https://img.shields.io/github/last-commit/lucas-lm/ecoleta-web)
+![GitHub](https://img.shields.io/github/license/lucas-lm/ecoleta-web)
 
 O Ecoleta tem o obetivo de mapear pontos de coleta de resíduos que não podem ser descartados de qualquer maneira, como pilhas e lixo eletrônico.
 Um ponto de coleta pode ser cadastrado pelo aplicativo web, e os dados de localização deste ponto de coleta ficam disponíveis na API pública do ecoleta.
