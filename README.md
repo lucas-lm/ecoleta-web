@@ -46,8 +46,8 @@ Você pode acessar a aplicação web [clicando aqui](https://lucas-lm.github.io/
 
 ## Veja também
 
-Repositório da app nativo: https://github.com/lucas-lm/ecoleta-native
-Repositório da API: https://github.com/lucas-lm/ecoleta-api
+- Repositório da app nativo: https://github.com/lucas-lm/ecoleta-native
+- Repositório da API: https://github.com/lucas-lm/ecoleta-api
 
 ## Autor
 
